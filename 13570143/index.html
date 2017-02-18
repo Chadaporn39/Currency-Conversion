@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>โปรแกรมแลกเงิน 3 สกุล</title>
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+ 
+    <form action="process.php" method="post">
+      <table border="0" align="center">
+      <tr>
+        <td colspan="2" width="550">
+        <div align="center"><p>โปรแกรมแลกเปลี่ยนเงินตรา</p></div></td>
+      </tr>
+      <tr>
+        <td width="150"><div align="right">จำนวนเงิน : </div></td>
+        <td  width="300"><input type="text" class="input-money" name="money" size="20" maxlength="100" />  บาทไทย (THB)</td>
+      </tr>     
+      <tr>
+
+      <td width="150"><div align="right">เลือกสกุลเงิน : </div></td>
+      <td width="212">
+            <select class="select-coin" name="coin">
+                <option value="1">สหดอลลาร์สหรัฐอเมริกา (USD)</option>
+                <option value="2">เงินเยนของญี่ปุ่น (JPY)</option>
+                <option value="3">เกาหลีวอน (KRW)</option>               
+            </select>
+      </td>
+      </tr>
+
+      <tr>
+          <td colspan="2"><div align="center"><input type="submit" value="คำนวณ" class="button-submit" /></div></td>
+      </tr>   
+      <tr>
+          <td colspan="2" style="font-size:14px; color:#F00;" align="center"></td>
+      </tr>
+
+      </table>
+      <div align="center"></div>
+
+
+
+
+</body>
+</html>

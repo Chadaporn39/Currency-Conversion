@@ -1,0 +1,47 @@
+body{background-color:#e0e0e0;}
+table{background-color: #fff; width: 700px;}
+p{
+	font-size: 25px;
+	color: #891832;
+	margin:  20px 0 20px 0;}
+.select-coin{
+	width: 220px;
+	height: 30px;
+	border-radius: 3px;
+	border: none;
+	border: 1px solid #e8e8e8;
+	cursor: pointer;
+	font-size: 14px;
+	color: #6a6a6a;
+}
+.button-submit{
+	border: none;
+	width: 220px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #ccc;
+	position: relative;
+	cursor: pointer;
+	background-color: #891832;
+	color: #fff;
+}
+.button-submit:hover{background-color: #bb2144;}
+
+.input-money{
+	width: 220px;
+	height: 30px;
+	border-radius: 3px;
+	border: none;
+	border: 1px solid #e8e8e8;
+	cursor: pointer;
+	font-size: 14px;
+	color: #222;
+}
+.container{
+	margin: auto;
+	width: 700px;
+	background-color: #fff;
+	padding-top: 2px;
+}
